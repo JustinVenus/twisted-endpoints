@@ -25,16 +25,16 @@ install-data = /usr/share/doc/%s
 """ % (os.path.sep.join(twisted.__file__.split(os.path.sep)[:-2]), DOCSTR))
 
 __doc__ = """
-    Implementations of L{IStreamServerEndpoint} and L{IStreamClientEndpoint} that
-    wrap the L{IReactorTCP}, L{IReactorSSL}, and L{IReactorUNIX} interfaces.
+Implementations of L{IStreamServerEndpoint} and L{IStreamClientEndpoint} that
+wrap the L{IReactorTCP}, L{IReactorSSL}, and L{IReactorUNIX} interfaces.
     
-    This also implements an extensible mini-language for describing endpoints,
-    parsed by the L{clientFromString} and L{serverFromString} functions.
+This also implements an extensible mini-language for describing endpoints,
+parsed by the L{clientFromString} and L{serverFromString} functions.
     
-    @since: 10.1
+@since: 10.1
 
-    This library has been modified to work with older versions of twisted and is
-    not supported by the twisted upstream development team. Use at your own risk.
+This library has been modified to work with older versions of twisted and is
+not supported by the twisted upstream development team. Use at your own risk.
 """
 
 setup(
